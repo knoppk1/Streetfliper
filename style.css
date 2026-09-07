@@ -29,7 +29,6 @@ body {
   transition: background 0.2s, border-color 0.2s;
 }
 
-/* Applied via JavaScript to simulate flipping */
 .card.back {
   background: #eff6ff;
   border-color: #2563eb;
@@ -70,4 +69,86 @@ button {
 button:disabled {
   background: #9ca3af;
   cursor: not-allowed;
+}
+
+/* Side Panel Styles below */
+.side-panel {
+  position: fixed;
+  top: 0;
+  right: -400px; 
+  width: 350px;
+  height: 100vh;
+  background: #ffffff;
+  box-shadow: -4px 0 15px rgba(0,0,0,0.1);
+  transition: right 0.3s ease;
+  padding: 24px;
+  box-sizing: border-box;
+  overflow-y: auto;
+  z-index: 10;
+}
+
+.side-panel.open {
+  right: 0;
+}
+
+.side-panel h2 {
+  margin-top: 0;
+  font-size: 1.25rem;
+  margin-bottom: 20px;
+  color: #1f2937;
+}
+
+.close-btn {
+  background: transparent;
+  color: #6b7280;
+  font-size: 1.5rem;
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+  flex: none;
+}
+
+.close-btn:hover {
+  color: #dc2626;
+}
+
+#hintList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#hintList li {
+  padding: 12px 0;
+  border-bottom: 1px solid #e5e7eb;
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+#hintList li:last-child {
+  border-bottom: none;
+}
+
+.distance-badge {
+  display: inline-block;
+  background: #eff6ff;
+  color: #2563eb;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-right: 8px;
+}
+#hintBtn {
+  background: white;
+  color: gray;
+  border: 2px solid gray;
+  padding: 8px 16px;
+}
+
+#hintBtn:hover {
+  background: #d1d5db;
 }
