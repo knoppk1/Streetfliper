@@ -26,17 +26,13 @@ function updateCard() {
   if (streets.length === 0) return;
 
   const currentStreet = streets[currentIndex];
-  
-  // Display the specific street name, not the whole object
   textElement.textContent = currentStreet.name;
-  
   labelElement.textContent = `Street ${currentIndex + 1} of ${streets.length}`;
   cardElement.classList.remove('back');
 
   prevBtn.disabled = currentIndex === 0;
   nextBtn.disabled = currentIndex === streets.length - 1;
 
-  // Clear and populate the side panel list
   hintList.innerHTML = '';
   currentStreet.hint.forEach(step => {
     const li = document.createElement('li');
@@ -45,17 +41,42 @@ function updateCard() {
   });
 }
 
+// Helper function to delay the card update if the panel is open
+function changeCardWithDelay(changeIndexAction) {
+  const isPanelOpen = sidePanel.classList.contains('open');
+  
+  // 1. Immediately close the panel and deactivate the button visually
+  sidePanel.classList.remove('open');
+  hintBtn.classList.remove('active');
+  
+  if (isPanelOpen) {
+    // 2. If it was open, wait 300ms (matching your CSS transition) before updating the data
+    setTimeout(() => {
+      changeIndexAction();
+      updateCard();
+    }, 120);
+  } else {
+    // 3. If it was already closed, update the data instantly
+    changeIndexAction();
+    updateCard();
+  }
+}
+
+// Previous Button logic
 prevBtn.addEventListener('click', () => {
   if (currentIndex > 0) {
-    currentIndex--;
-    updateCard();
+    changeCardWithDelay(() => {
+      currentIndex--;
+    });
   }
 });
 
+// Next Button logic
 nextBtn.addEventListener('click', () => {
   if (currentIndex < streets.length - 1) {
-    currentIndex++;
-    updateCard();
+    changeCardWithDelay(() => {
+      currentIndex++;
+    });
   }
 });
 
@@ -65,9 +86,13 @@ cardElement.addEventListener('click', () => {
 
 // Side Panel Controls
 hintBtn.addEventListener('click', () => {
-  sidePanel.classList.add('open');
+  // Toggle switches the state back and forth on each click
+  sidePanel.classList.toggle('open');
+  hintBtn.classList.toggle('active');
 });
 
 closePanelBtn.addEventListener('click', () => {
+  // Ensure both the panel and the button reset when the 'x' is clicked
   sidePanel.classList.remove('open');
+  hintBtn.classList.remove('active');
 });
