@@ -1,19 +1,205 @@
 {
     "streets": [
-        "T\u00e1boritsk\u00e1",
-        "Na Rybn\u00ed\u010dku",
-        "Jeron\u00fdmova",
-        "Klof\u00e1\u010dova",
-        "Jablonsk\u00e9ho",
-        "Jate\u010dn\u00ed",
-        "Jir\u00e1skova",
-        "Masarykovo n\u00e1m\u011bst\u00ed",
-        "Z\u00e1mek",
-        "Z\u00e1mek",
-        "Na Sadech",
-        "Seifertova",
-        "Klof\u00e1\u010dova",
-        "Tyr\u0161ova",
-        "T\u00e1boritsk\u00e1"
+        {
+            "name": "T\u00e1boritsk\u00e1",
+            "hint": [
+                "distance: 36.132 direction: Continue",
+                "distance: 43.828 direction: Keep left",
+                "distance: 9.117 direction: Turn left",
+                "distance: 6.962 direction: Turn right",
+                "distance: 5.41 direction: Turn left onto T\u00e1boritsk\u00e1"
+            ]
+        },
+        {
+            "name": "T\u0159eb\u00edzsk\u00e9ho",
+            "hint": [
+                "distance: 207.437 direction: Turn right",
+                "distance: 88.503 direction: Continue",
+                "distance: 150.397 direction: Turn left",
+                "distance: 109.716 direction: Turn right",
+                "distance: 6.409 direction: Turn sharp left",
+                "distance: 242.041 direction: Turn sharp right onto T\u0159eb\u00edzsk\u00e9ho"
+            ]
+        },
+        {
+            "name": "Bo\u017eeny N\u011bmcov\u00e9",
+            "hint": [
+                "distance: 395.507 direction: Turn left onto Bo\u017eeny N\u011bmcov\u00e9"
+            ]
+        },
+        {
+            "name": "P\u0159emyslova",
+            "hint": [
+                "distance: 7.638 direction: Turn right",
+                "distance: 56.551 direction: Turn left",
+                "distance: 27.218 direction: Turn left",
+                "distance: 131.578 direction: Turn right",
+                "distance: 116.159 direction: Keep right",
+                "distance: 20.518 direction: Turn right",
+                "distance: 41.041 direction: Turn left",
+                "distance: 0.0 direction: Waypoint 1",
+                "distance: 41.041 direction: Make a U-turn",
+                "distance: 20.518 direction: Turn right",
+                "distance: 116.159 direction: Turn left",
+                "distance: 352.773 direction: Keep left",
+                "distance: 193.757 direction: Turn left",
+                "distance: 77.283 direction: Turn left",
+                "distance: 280.934 direction: Turn right onto P\u0159emyslova"
+            ]
+        },
+        {
+            "name": "Z\u00e1mek",
+            "hint": [
+                "distance: 79.902 direction: Turn left",
+                "distance: 9.149 direction: Turn right",
+                "distance: 71.867 direction: Turn left",
+                "distance: 44.843 direction: Turn right",
+                "distance: 246.735 direction: Continue",
+                "distance: 10.065 direction: Turn right",
+                "distance: 35.429 direction: Turn left",
+                "distance: 44.108 direction: Keep right onto Z\u00e1mek"
+            ]
+        },
+        {
+            "name": "Masarykovo n\u00e1m\u011bst\u00ed",
+            "hint": [
+                "distance: 164.319 direction: Continue onto Masarykovo n\u00e1m\u011bst\u00ed"
+            ]
+        },
+        {
+            "name": "Hradebn\u00ed",
+            "hint": [
+                "distance: 2.588 direction: Turn left",
+                "distance: 56.956 direction: Turn right",
+                "distance: 3.579 direction: Turn right onto Hradebn\u00ed"
+            ]
+        },
+        {
+            "name": "Dukelsk\u00e1",
+            "hint": [
+                "distance: 1.972 direction: Turn left onto Dukelsk\u00e1"
+            ]
+        },
+        {
+            "name": "Tylova",
+            "hint": [
+                "distance: 7.108 direction: Turn left onto Tylova"
+            ]
+        },
+        {
+            "name": "Dukelsk\u00e1",
+            "hint": [
+                "distance: 116.9 direction: Turn right",
+                "distance: 318.668 direction: Continue",
+                "distance: 0.0 direction: Waypoint 2",
+                "distance: 318.668 direction: Make a U-turn",
+                "distance: 116.9 direction: Keep right",
+                "distance: 7.108 direction: Turn left onto Tylova",
+                "distance: 1.972 direction: Turn right onto Dukelsk\u00e1"
+            ]
+        },
+        {
+            "name": "Hradebn\u00ed",
+            "hint": [
+                "distance: 3.579 direction: Turn right onto Hradebn\u00ed"
+            ]
+        },
+        {
+            "name": "Masarykovo n\u00e1m\u011bst\u00ed",
+            "hint": [
+                "distance: 56.956 direction: Turn left",
+                "distance: 2.588 direction: Turn left",
+                "distance: 164.319 direction: Turn right onto Masarykovo n\u00e1m\u011bst\u00ed"
+            ]
+        },
+        {
+            "name": "Z\u00e1mek",
+            "hint": [
+                "distance: 25.964 direction: Continue onto Z\u00e1mek"
+            ]
+        },
+        {
+            "name": "Svobody",
+            "hint": [
+                "distance: 0.0 direction: Waypoint 3",
+                "distance: 53.573 direction: Continue onto Z\u00e1mek",
+                "distance: 10.065 direction: Turn right",
+                "distance: 96.18 direction: Turn left",
+                "distance: 150.555 direction: Keep left",
+                "distance: 44.843 direction: Continue",
+                "distance: 71.867 direction: Turn left",
+                "distance: 9.149 direction: Turn right",
+                "distance: 52.047 direction: Turn right",
+                "distance: 369.026 direction: Turn sharp right",
+                "distance: 5.297 direction: Turn right",
+                "distance: 107.136 direction: Turn left onto Svobody"
+            ]
+        },
+        {
+            "name": "Na Rybn\u00ed\u010dku",
+            "hint": [
+                "distance: 54.985 direction: Turn right",
+                "distance: 22.782 direction: Keep right",
+                "distance: 0.0 direction: Arrive at destination",
+                "distance: 70.285 direction: Continue",
+                "distance: 51.879 direction: Turn left",
+                "distance: 194.332 direction: Turn left onto Na Rybn\u00ed\u010dku"
+            ]
+        },
+        {
+            "name": "Jeron\u00fdmova",
+            "hint": [
+                "distance: 210.439 direction: Turn right onto Jeron\u00fdmova"
+            ]
+        },
+        {
+            "name": "Klof\u00e1\u010dova",
+            "hint": [
+                "distance: 62.11 direction: Turn left onto Klof\u00e1\u010dova"
+            ]
+        },
+        {
+            "name": "Seifertova",
+            "hint": [
+                "distance: 4.494 direction: Turn right onto Seifertova"
+            ]
+        },
+        {
+            "name": "Jablonsk\u00e9ho",
+            "hint": [
+                "distance: 7.687 direction: Turn left",
+                "distance: 29.463 direction: Turn right",
+                "distance: 14.173 direction: Turn slight right",
+                "distance: 3.491 direction: Turn left",
+                "distance: 0.0 direction: Waypoint 1",
+                "distance: 3.491 direction: Make a U-turn",
+                "distance: 14.173 direction: Turn right",
+                "distance: 27.514 direction: Keep right",
+                "distance: 67.514 direction: Turn right",
+                "distance: 410.65 direction: Turn right onto Jablonsk\u00e9ho"
+            ]
+        },
+        {
+            "name": "Jate\u010dn\u00ed",
+            "hint": [
+                "distance: 18.467 direction: Turn left",
+                "distance: 0.0 direction: Waypoint 2",
+                "distance: 18.467 direction: Make a U-turn",
+                "distance: 239.714 direction: Turn right onto Jate\u010dn\u00ed"
+            ]
+        },
+        {
+            "name": "Jir\u00e1skova",
+            "hint": [
+                "distance: 17.398 direction: Turn right onto Jir\u00e1skova"
+            ]
+        },
+        {
+            "name": "T\u00e1boritsk\u00e1",
+            "hint": [
+                "distance: 900.089 direction: Keep left",
+                "distance: 6.52 direction: Turn left onto T\u00e1boritsk\u00e1"
+            ]
+        }
     ]
 }
