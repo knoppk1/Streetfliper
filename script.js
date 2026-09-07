@@ -1,19 +1,21 @@
 let streets = [];
 let currentIndex = 0;
 
-// Grab DOM elements matching index.html
 const cardElement = document.getElementById('flashcard');
 const textElement = document.getElementById('cardText');
 const labelElement = document.getElementById('cardLabel');
 const prevBtn = document.getElementById('prevBtn');
 const nextBtn = document.getElementById('nextBtn');
+const hintBtn = document.getElementById('hintBtn');
+const sidePanel = document.getElementById('sidePanel');
+const closePanelBtn = document.getElementById('closePanelBtn');
+const hintList = document.getElementById('hintList');
 
-// Fetch the streets array from streets.json
 fetch('streets.json')
   .then(response => response.json())
   .then(data => {
     streets = data.streets;
-    updateCard(); // Initialize the first card
+    updateCard(); 
   })
   .catch(error => {
     textElement.textContent = "Error loading route.";
@@ -23,21 +25,26 @@ fetch('streets.json')
 function updateCard() {
   if (streets.length === 0) return;
 
-  // Display the current street name
-  textElement.textContent = streets[currentIndex];
+  const currentStreet = streets[currentIndex];
   
-  // Update the label tracker
+  // Display the specific street name, not the whole object
+  textElement.textContent = currentStreet.name;
+  
   labelElement.textContent = `Street ${currentIndex + 1} of ${streets.length}`;
-
-  // Reset the flip state whenever navigating to a new card
   cardElement.classList.remove('back');
 
-  // Disable Prev/Next buttons at the start/end of the list
   prevBtn.disabled = currentIndex === 0;
   nextBtn.disabled = currentIndex === streets.length - 1;
+
+  // Clear and populate the side panel list
+  hintList.innerHTML = '';
+  currentStreet.hint.forEach(step => {
+    const li = document.createElement('li');
+    li.innerHTML = `<span class="distance-badge">${step.distance}m</span> ${step.instruction}`;
+    hintList.appendChild(li);
+  });
 }
 
-// Previous Button logic
 prevBtn.addEventListener('click', () => {
   if (currentIndex > 0) {
     currentIndex--;
@@ -45,7 +52,6 @@ prevBtn.addEventListener('click', () => {
   }
 });
 
-// Next Button logic
 nextBtn.addEventListener('click', () => {
   if (currentIndex < streets.length - 1) {
     currentIndex++;
@@ -53,7 +59,15 @@ nextBtn.addEventListener('click', () => {
   }
 });
 
-// Simulate flipping the card by toggling the CSS class
 cardElement.addEventListener('click', () => {
   cardElement.classList.toggle('back');
+});
+
+// Side Panel Controls
+hintBtn.addEventListener('click', () => {
+  sidePanel.classList.add('open');
+});
+
+closePanelBtn.addEventListener('click', () => {
+  sidePanel.classList.remove('open');
 });
