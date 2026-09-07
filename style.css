@@ -66,6 +66,10 @@ button {
   margin: 0 5px;
 }
 
+button:hover {
+  background: #558bdb;
+}
+
 button:disabled {
   background: #9ca3af;
   cursor: not-allowed;
@@ -145,10 +149,15 @@ button:disabled {
 #hintBtn {
   background: white;
   color: gray;
-  border: 2px solid gray;
+  border: 1px solid rgb(209, 208, 208);
   padding: 8px 16px;
 }
 
 #hintBtn:hover {
-  background: #d1d5db;
+  background: #d7d9dc;
+}
+#hintBtn.active {
+  background: rgb(191, 191, 191); /* A darker shade of blue */
+  box-shadow: inset 0 4px 6px rgba(0, 0, 0, 0.3);
+  color: white;
 }
