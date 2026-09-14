@@ -1,3 +1,458 @@
 {
-    "streets": []
+    "streets": [
+        {
+            "name": "Chaloupeck\u00e9ho",
+            "hint": [
+                {
+                    "distance": 528.927,
+                    "instruction": "Continue"
+                },
+                {
+                    "distance": 482.282,
+                    "instruction": "Keep left"
+                },
+                {
+                    "distance": 5.844,
+                    "instruction": "Turn right"
+                },
+                {
+                    "distance": 36.11,
+                    "instruction": "Turn left"
+                },
+                {
+                    "distance": 32.344,
+                    "instruction": "Turn right"
+                },
+                {
+                    "distance": 83.113,
+                    "instruction": "Turn slight left"
+                },
+                {
+                    "distance": 569.017,
+                    "instruction": "Keep right"
+                },
+                {
+                    "distance": 25.504,
+                    "instruction": "Keep left"
+                },
+                {
+                    "distance": 218.632,
+                    "instruction": "Keep right"
+                },
+                {
+                    "distance": 20.228,
+                    "instruction": "Turn left onto Chaloupeck\u00e9ho"
+                }
+            ]
+        },
+        {
+            "name": "Jezdeck\u00e1",
+            "hint": [
+                {
+                    "distance": 51.805,
+                    "instruction": "Turn sharp right"
+                },
+                {
+                    "distance": 49.127,
+                    "instruction": "Keep left"
+                },
+                {
+                    "distance": 20.573,
+                    "instruction": "Turn slight left"
+                },
+                {
+                    "distance": 6.803,
+                    "instruction": "Turn sharp right"
+                },
+                {
+                    "distance": 29.667,
+                    "instruction": "Turn sharp left onto Jezdeck\u00e1"
+                }
+            ]
+        },
+        {
+            "name": "\u0160erm\u00ed\u0159sk\u00e1",
+            "hint": [
+                {
+                    "distance": 73.218,
+                    "instruction": "Turn right"
+                },
+                {
+                    "distance": 126.299,
+                    "instruction": "Turn left onto \u0160erm\u00ed\u0159sk\u00e1"
+                }
+            ]
+        },
+        {
+            "name": "Jezdeck\u00e1",
+            "hint": [
+                {
+                    "distance": 0.0,
+                    "instruction": "Waypoint 1"
+                },
+                {
+                    "distance": 126.299,
+                    "instruction": "Make a U-turn onto \u0160erm\u00ed\u0159sk\u00e1"
+                },
+                {
+                    "distance": 11.173,
+                    "instruction": "Turn right"
+                },
+                {
+                    "distance": 62.045,
+                    "instruction": "Keep left"
+                },
+                {
+                    "distance": 29.667,
+                    "instruction": "Turn left onto Jezdeck\u00e1"
+                }
+            ]
+        },
+        {
+            "name": "Chaloupeck\u00e9ho",
+            "hint": [
+                {
+                    "distance": 6.803,
+                    "instruction": "Turn sharp right"
+                },
+                {
+                    "distance": 20.573,
+                    "instruction": "Turn sharp left"
+                },
+                {
+                    "distance": 49.127,
+                    "instruction": "Keep right"
+                },
+                {
+                    "distance": 19.819,
+                    "instruction": "Keep right"
+                },
+                {
+                    "distance": 31.986,
+                    "instruction": "Keep left"
+                },
+                {
+                    "distance": 20.228,
+                    "instruction": "Turn sharp left onto Chaloupeck\u00e9ho"
+                }
+            ]
+        },
+        {
+            "name": "Radimova",
+            "hint": [
+                {
+                    "distance": 813.153,
+                    "instruction": "Turn right"
+                },
+                {
+                    "distance": 83.113,
+                    "instruction": "Keep left"
+                },
+                {
+                    "distance": 32.344,
+                    "instruction": "Keep right"
+                },
+                {
+                    "distance": 137.586,
+                    "instruction": "Turn left"
+                },
+                {
+                    "distance": 132.188,
+                    "instruction": "Continue"
+                },
+                {
+                    "distance": 25.412,
+                    "instruction": "Turn left"
+                },
+                {
+                    "distance": 68.779,
+                    "instruction": "Turn left"
+                },
+                {
+                    "distance": 153.359,
+                    "instruction": "Turn left"
+                },
+                {
+                    "distance": 63.832,
+                    "instruction": "Turn right"
+                },
+                {
+                    "distance": 74.035,
+                    "instruction": "Turn left"
+                },
+                {
+                    "distance": 77.493,
+                    "instruction": "Turn slight right onto Radimova"
+                }
+            ]
+        },
+        {
+            "name": "Na Petynce",
+            "hint": [
+                {
+                    "distance": 62.937,
+                    "instruction": "Turn right"
+                },
+                {
+                    "distance": 49.05,
+                    "instruction": "Turn left"
+                },
+                {
+                    "distance": 102.993,
+                    "instruction": "Keep left"
+                },
+                {
+                    "distance": 19.356,
+                    "instruction": "Turn left onto Na Petynce"
+                }
+            ]
+        },
+        {
+            "name": "Pod And\u011blkou",
+            "hint": [
+                {
+                    "distance": 4.956,
+                    "instruction": "Turn right"
+                },
+                {
+                    "distance": 107.511,
+                    "instruction": "Turn left"
+                },
+                {
+                    "distance": 55.63,
+                    "instruction": "Keep right"
+                },
+                {
+                    "distance": 7.581,
+                    "instruction": "Turn sharp left"
+                },
+                {
+                    "distance": 5.711,
+                    "instruction": "Turn sharp right onto Pod And\u011blkou"
+                }
+            ]
+        },
+        {
+            "name": "Ve St\u0159e\u0161ovi\u010dk\u00e1ch",
+            "hint": [
+                {
+                    "distance": 207.128,
+                    "instruction": "Turn sharp left onto Ve St\u0159e\u0161ovi\u010dk\u00e1ch"
+                }
+            ]
+        },
+        {
+            "name": "K\u00a0Bateri\u00edm",
+            "hint": [
+                {
+                    "distance": 5.094,
+                    "instruction": "Turn right onto K\u00a0Bateri\u00edm"
+                }
+            ]
+        },
+        {
+            "name": "Na Z\u00e1st\u0159elu",
+            "hint": [
+                {
+                    "distance": 26.342,
+                    "instruction": "Turn left"
+                },
+                {
+                    "distance": 78.186,
+                    "instruction": "Turn right onto Na Z\u00e1st\u0159elu"
+                }
+            ]
+        },
+        {
+            "name": "Na Bateri\u00edch",
+            "hint": [
+                {
+                    "distance": 0.0,
+                    "instruction": "Waypoint 2"
+                },
+                {
+                    "distance": 43.036,
+                    "instruction": "Continue onto Na Z\u00e1st\u0159elu"
+                },
+                {
+                    "distance": 91.692,
+                    "instruction": "Turn left onto Na Bateri\u00edch"
+                }
+            ]
+        },
+        {
+            "name": "Na Vini\u010dce",
+            "hint": [
+                {
+                    "distance": 29.228,
+                    "instruction": "Turn left onto Na Vini\u010dce"
+                }
+            ]
+        },
+        {
+            "name": "Ve St\u0159e\u0161ovi\u010dk\u00e1ch",
+            "hint": [
+                {
+                    "distance": 32.037,
+                    "instruction": "Turn right onto Na Vini\u010dce"
+                },
+                {
+                    "distance": 238.73,
+                    "instruction": "Turn right onto Ve St\u0159e\u0161ovi\u010dk\u00e1ch"
+                }
+            ]
+        },
+        {
+            "name": "Radimova",
+            "hint": [
+                {
+                    "distance": 31.214,
+                    "instruction": "Turn right onto Radimova"
+                }
+            ]
+        },
+        {
+            "name": "Sartoriova",
+            "hint": [
+                {
+                    "distance": 48.266,
+                    "instruction": "Turn left onto Sartoriova"
+                }
+            ]
+        },
+        {
+            "name": "\u0158\u00ed\u010danova",
+            "hint": [
+                {
+                    "distance": 5.684,
+                    "instruction": "Turn left"
+                },
+                {
+                    "distance": 127.734,
+                    "instruction": "Turn right"
+                },
+                {
+                    "distance": 24.207,
+                    "instruction": "Keep right"
+                },
+                {
+                    "distance": 54.866,
+                    "instruction": "Keep right"
+                },
+                {
+                    "distance": 11.838,
+                    "instruction": "Turn left"
+                },
+                {
+                    "distance": 471.742,
+                    "instruction": "Turn right"
+                },
+                {
+                    "distance": 33.222,
+                    "instruction": "Turn left"
+                },
+                {
+                    "distance": 34.572,
+                    "instruction": "Turn right"
+                },
+                {
+                    "distance": 15.3,
+                    "instruction": "Turn right"
+                },
+                {
+                    "distance": 313.868,
+                    "instruction": "Turn right"
+                },
+                {
+                    "distance": 256.345,
+                    "instruction": "Turn sharp left"
+                },
+                {
+                    "distance": 0.0,
+                    "instruction": "Waypoint 3"
+                },
+                {
+                    "distance": 256.345,
+                    "instruction": "Make a U-turn"
+                },
+                {
+                    "distance": 5.034,
+                    "instruction": "Turn sharp right"
+                },
+                {
+                    "distance": 204.61,
+                    "instruction": "Keep right onto \u0158\u00ed\u010danova"
+                }
+            ]
+        },
+        {
+            "name": "Dvo\u0159eck\u00e9ho",
+            "hint": [
+                {
+                    "distance": 129.911,
+                    "instruction": "Keep left onto \u0158\u00ed\u010danova"
+                },
+                {
+                    "distance": 0.0,
+                    "instruction": "Arrive at destination"
+                },
+                {
+                    "distance": 132.48,
+                    "instruction": "Continue onto \u0158\u00ed\u010danova"
+                },
+                {
+                    "distance": 132.13,
+                    "instruction": "Turn right onto Dvo\u0159eck\u00e9ho"
+                }
+            ]
+        },
+        {
+            "name": "\u0160ultysova",
+            "hint": [
+                {
+                    "distance": 94.431,
+                    "instruction": "Keep left onto \u0160ultysova"
+                }
+            ]
+        },
+        {
+            "name": "Konecchlumsk\u00e9ho",
+            "hint": [
+                {
+                    "distance": 0.0,
+                    "instruction": "Waypoint 1"
+                },
+                {
+                    "distance": 34.665,
+                    "instruction": "Continue onto \u0160ultysova"
+                },
+                {
+                    "distance": 101.426,
+                    "instruction": "Turn left onto Konecchlumsk\u00e9ho"
+                }
+            ]
+        },
+        {
+            "name": "8. listopadu",
+            "hint": [
+                {
+                    "distance": 250.962,
+                    "instruction": "Turn right onto 8. listopadu"
+                }
+            ]
+        },
+        {
+            "name": "Kutnauerovo n\u00e1m\u011bst\u00ed",
+            "hint": [
+                {
+                    "distance": 171.729,
+                    "instruction": "Turn right"
+                },
+                {
+                    "distance": 36.968,
+                    "instruction": "Turn right onto Kutnauerovo n\u00e1m\u011bst\u00ed"
+                }
+            ]
+        }
+    ]
 }
