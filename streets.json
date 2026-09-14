@@ -1,84 +1,259 @@
 {
     "streets": [
         {
-            "name": "Ve St\u0159e\u0161ovi\u010dk\u00e1ch",
+            "name": "Kutnauerovo n\u00e1m\u011bst\u00ed",
             "hint": [
                 {
-                    "distance": 32.527,
+                    "distance": 25.524,
                     "instruction": "Continue"
                 },
                 {
-                    "distance": 25.529,
-                    "instruction": "Turn right"
-                },
-                {
-                    "distance": 18.602,
-                    "instruction": "Turn right"
-                },
-                {
-                    "distance": 34.813,
-                    "instruction": "Turn left"
-                },
-                {
-                    "distance": 13.556,
-                    "instruction": "Continue"
-                },
-                {
-                    "distance": 64.809,
-                    "instruction": "Turn left"
-                },
-                {
-                    "distance": 52.979,
-                    "instruction": "Keep right"
-                },
-                {
-                    "distance": 106.319,
-                    "instruction": "Turn slight left"
-                },
-                {
-                    "distance": 23.457,
-                    "instruction": "Keep left"
-                },
-                {
-                    "distance": 24.145,
-                    "instruction": "Turn left"
-                },
-                {
-                    "distance": 38.116,
-                    "instruction": "Turn right"
-                },
-                {
-                    "distance": 4.85,
-                    "instruction": "Turn left"
-                },
-                {
-                    "distance": 165.914,
-                    "instruction": "Turn right"
-                },
-                {
-                    "distance": 23.155,
-                    "instruction": "Turn left"
-                },
-                {
-                    "distance": 77.389,
-                    "instruction": "Turn right"
-                },
-                {
-                    "distance": 61.742,
-                    "instruction": "Turn right"
-                },
-                {
-                    "distance": 109.415,
-                    "instruction": "Turn right onto Ve St\u0159e\u0161ovi\u010dk\u00e1ch"
+                    "distance": 36.968,
+                    "instruction": "Turn left onto Kutnauerovo n\u00e1m\u011bst\u00ed"
                 }
             ]
         },
         {
-            "name": "Na Vini\u010dce",
+            "name": "Z\u00fa\u017een\u00e1",
             "hint": [
                 {
-                    "distance": 32.037,
-                    "instruction": "Turn left onto Na Vini\u010dce"
+                    "distance": 154.488,
+                    "instruction": "Turn left onto Kutnauerovo n\u00e1m\u011bst\u00ed"
+                },
+                {
+                    "distance": 0.0,
+                    "instruction": "Waypoint 1"
+                },
+                {
+                    "distance": 154.488,
+                    "instruction": "Make a U-turn onto Z\u00fa\u017een\u00e1"
+                }
+            ]
+        },
+        {
+            "name": "Kutnauerovo n\u00e1m\u011bst\u00ed",
+            "hint": [
+                {
+                    "distance": 36.968,
+                    "instruction": "Turn right onto Kutnauerovo n\u00e1m\u011bst\u00ed"
+                }
+            ]
+        },
+        {
+            "name": "Konecchlumsk\u00e9ho",
+            "hint": [
+                {
+                    "distance": 368.432,
+                    "instruction": "Turn left"
+                },
+                {
+                    "distance": 59.294,
+                    "instruction": "Turn left onto Konecchlumsk\u00e9ho"
+                }
+            ]
+        },
+        {
+            "name": "8. listopadu",
+            "hint": [
+                {
+                    "distance": 53.087,
+                    "instruction": "Turn right onto 8. listopadu"
+                }
+            ]
+        },
+        {
+            "name": "\u0158\u00ed\u010danova",
+            "hint": [
+                {
+                    "distance": 40.32,
+                    "instruction": "Turn right onto 8. listopadu"
+                },
+                {
+                    "distance": 445.974,
+                    "instruction": "Keep left onto \u0158\u00ed\u010danova"
+                }
+            ]
+        },
+        {
+            "name": "\u0158e\u010dick\u00e9ho",
+            "hint": [
+                {
+                    "distance": 14.407,
+                    "instruction": "Turn left onto \u0158e\u010dick\u00e9ho"
+                }
+            ]
+        },
+        {
+            "name": "\u0158\u00ed\u010danova",
+            "hint": [
+                {
+                    "distance": 103.487,
+                    "instruction": "Turn left"
+                },
+                {
+                    "distance": 0.0,
+                    "instruction": "Waypoint 2"
+                },
+                {
+                    "distance": 103.487,
+                    "instruction": "Make a U-turn"
+                },
+                {
+                    "distance": 14.407,
+                    "instruction": "Turn right onto \u0158e\u010dick\u00e9ho"
+                },
+                {
+                    "distance": 15.151,
+                    "instruction": "Turn left onto \u0158\u00ed\u010danova"
+                }
+            ]
+        },
+        {
+            "name": "\u0158e\u010dick\u00e9ho",
+            "hint": [
+                {
+                    "distance": 97.081,
+                    "instruction": "Turn right onto \u0158e\u010dick\u00e9ho"
+                }
+            ]
+        },
+        {
+            "name": "8. listopadu",
+            "hint": [
+                {
+                    "distance": 40.247,
+                    "instruction": "Turn left onto 8. listopadu"
+                }
+            ]
+        },
+        {
+            "name": "Radimova",
+            "hint": [
+                {
+                    "distance": 164.239,
+                    "instruction": "Turn sharp right"
+                },
+                {
+                    "distance": 15.3,
+                    "instruction": "Turn left"
+                },
+                {
+                    "distance": 34.572,
+                    "instruction": "Turn left"
+                },
+                {
+                    "distance": 33.222,
+                    "instruction": "Turn left"
+                },
+                {
+                    "distance": 471.742,
+                    "instruction": "Turn right"
+                },
+                {
+                    "distance": 11.838,
+                    "instruction": "Turn left"
+                },
+                {
+                    "distance": 4.382,
+                    "instruction": "Turn left"
+                },
+                {
+                    "distance": 15.409,
+                    "instruction": "Turn right"
+                },
+                {
+                    "distance": 109.927,
+                    "instruction": "Continue"
+                },
+                {
+                    "distance": 75.541,
+                    "instruction": "Continue"
+                },
+                {
+                    "distance": 15.453,
+                    "instruction": "Keep left"
+                },
+                {
+                    "distance": 11.721,
+                    "instruction": "Turn slight right onto Radimova"
+                }
+            ]
+        },
+        {
+            "name": "Kus\u00e1",
+            "hint": [
+                {
+                    "distance": 38.648,
+                    "instruction": "Turn left"
+                },
+                {
+                    "distance": 7.94,
+                    "instruction": "Turn right onto Kus\u00e1"
+                }
+            ]
+        },
+        {
+            "name": "Talichova",
+            "hint": [
+                {
+                    "distance": 51.713,
+                    "instruction": "Turn left"
+                },
+                {
+                    "distance": 18.291,
+                    "instruction": "Turn right onto Talichova"
+                }
+            ]
+        },
+        {
+            "name": "U vojensk\u00e9 nemocnice",
+            "hint": [
+                {
+                    "distance": 45.539,
+                    "instruction": "Turn left"
+                },
+                {
+                    "distance": 3.911,
+                    "instruction": "Turn right"
+                },
+                {
+                    "distance": 24.492,
+                    "instruction": "Continue onto U vojensk\u00e9 nemocnice"
+                }
+            ]
+        },
+        {
+            "name": "U Vojensk\u00e9 nemocnice",
+            "hint": [
+                {
+                    "distance": 105.151,
+                    "instruction": "Turn left onto U Vojensk\u00e9 nemocnice"
+                }
+            ]
+        },
+        {
+            "name": "U Druh\u00e9 baterie",
+            "hint": [
+                {
+                    "distance": 263.548,
+                    "instruction": "Turn right onto U Druh\u00e9 baterie"
+                }
+            ]
+        },
+        {
+            "name": "Na Z\u00e1st\u0159elu",
+            "hint": [
+                {
+                    "distance": 0.0,
+                    "instruction": "Waypoint 3"
+                },
+                {
+                    "distance": 95.617,
+                    "instruction": "Continue onto U Druh\u00e9 baterie"
+                },
+                {
+                    "distance": 102.324,
+                    "instruction": "Turn right onto Na Z\u00e1st\u0159elu"
                 }
             ]
         },
@@ -86,310 +261,68 @@
             "name": "Na Bateri\u00edch",
             "hint": [
                 {
-                    "distance": 29.228,
-                    "instruction": "Turn left onto Na Vini\u010dce"
-                },
-                {
-                    "distance": 139.793,
+                    "distance": 7.634,
                     "instruction": "Turn right onto Na Bateri\u00edch"
                 }
             ]
         },
         {
-            "name": "Na Vini\u010dce",
+            "name": "K\u00a0Bateri\u00edm",
             "hint": [
                 {
-                    "distance": 0.0,
-                    "instruction": "Waypoint 1"
-                },
-                {
-                    "distance": 139.793,
-                    "instruction": "Make a U-turn onto Na Bateri\u00edch"
-                },
-                {
-                    "distance": 29.228,
-                    "instruction": "Turn left onto Na Vini\u010dce"
-                }
-            ]
-        },
-        {
-            "name": "Ve St\u0159e\u0161ovi\u010dk\u00e1ch",
-            "hint": [
-                {
-                    "distance": 32.037,
-                    "instruction": "Turn right onto Na Vini\u010dce"
-                },
-                {
-                    "distance": 109.415,
-                    "instruction": "Turn right onto Ve St\u0159e\u0161ovi\u010dk\u00e1ch"
-                }
-            ]
-        },
-        {
-            "name": "Mezi\u0161kolsk\u00e1",
-            "hint": [
-                {
-                    "distance": 61.742,
-                    "instruction": "Turn left"
-                },
-                {
-                    "distance": 35.285,
-                    "instruction": "Turn left"
-                },
-                {
-                    "distance": 16.637,
-                    "instruction": "Turn right"
-                },
-                {
-                    "distance": 51.128,
-                    "instruction": "Turn left"
-                },
-                {
-                    "distance": 163.501,
-                    "instruction": "Turn right onto Mezi\u0161kolsk\u00e1"
-                }
-            ]
-        },
-        {
-            "name": "Slavn\u00edkova",
-            "hint": [
-                {
-                    "distance": 6.712,
-                    "instruction": "Turn left"
-                },
-                {
-                    "distance": 32.377,
-                    "instruction": "Turn right"
-                },
-                {
-                    "distance": 68.198,
-                    "instruction": "Turn right"
-                },
-                {
-                    "distance": 5.814,
-                    "instruction": "Turn left"
-                },
-                {
-                    "distance": 84.697,
-                    "instruction": "Turn right onto Slavn\u00edkova"
-                }
-            ]
-        },
-        {
-            "name": "B\u0159evnovsk\u00e1",
-            "hint": [
-                {
-                    "distance": 44.766,
-                    "instruction": "Continue onto B\u0159evnovsk\u00e1"
-                }
-            ]
-        },
-        {
-            "name": "Pod Marj\u00e1nkou",
-            "hint": [
-                {
-                    "distance": 7.556,
-                    "instruction": "Turn left onto Pod Marj\u00e1nkou"
-                }
-            ]
-        },
-        {
-            "name": "B\u0159evnovsk\u00e1",
-            "hint": [
-                {
-                    "distance": 0.0,
-                    "instruction": "Waypoint 2"
-                },
-                {
-                    "distance": 7.556,
-                    "instruction": "Make a U-turn onto Pod Marj\u00e1nkou"
-                },
-                {
-                    "distance": 44.766,
-                    "instruction": "Turn right onto B\u0159evnovsk\u00e1"
-                }
-            ]
-        },
-        {
-            "name": "Slavn\u00edkova",
-            "hint": [
-                {
-                    "distance": 84.697,
-                    "instruction": "Continue onto Slavn\u00edkova"
-                }
-            ]
-        },
-        {
-            "name": "B\u0159evnovsk\u00e1",
-            "hint": [
-                {
-                    "distance": 5.814,
-                    "instruction": "Turn left"
-                },
-                {
-                    "distance": 212.024,
-                    "instruction": "Turn right onto B\u0159evnovsk\u00e1"
-                }
-            ]
-        },
-        {
-            "name": "Pato\u010dkova",
-            "hint": [
-                {
-                    "distance": 11.439,
-                    "instruction": "Turn left"
-                },
-                {
-                    "distance": 73.526,
-                    "instruction": "Turn right onto Pato\u010dkova"
-                }
-            ]
-        },
-        {
-            "name": "Jun\u00e1ck\u00e1",
-            "hint": [
-                {
-                    "distance": 0.0,
-                    "instruction": "Waypoint 3"
-                },
-                {
-                    "distance": 73.526,
-                    "instruction": "Make a U-turn onto Pato\u010dkova"
-                },
-                {
-                    "distance": 11.439,
-                    "instruction": "Turn left"
-                },
-                {
-                    "distance": 51.28,
-                    "instruction": "Turn right"
-                },
-                {
-                    "distance": 505.248,
-                    "instruction": "Turn left onto Jun\u00e1ck\u00e1"
-                }
-            ]
-        },
-        {
-            "name": "Pod Marj\u00e1nkou",
-            "hint": [
-                {
-                    "distance": 56.115,
-                    "instruction": "Turn slight left onto Pod Marj\u00e1nkou"
-                }
-            ]
-        },
-        {
-            "name": "Skupova",
-            "hint": [
-                {
-                    "distance": 5.337,
-                    "instruction": "Turn right onto Skupova"
-                }
-            ]
-        },
-        {
-            "name": "Liborova",
-            "hint": [
-                {
-                    "distance": 97.715,
-                    "instruction": "Turn left"
-                },
-                {
-                    "distance": 35.869,
-                    "instruction": "Turn right"
-                },
-                {
-                    "distance": 3.933,
-                    "instruction": "Continue"
-                },
-                {
-                    "distance": 5.729,
-                    "instruction": "Turn left"
-                },
-                {
-                    "distance": 26.091,
-                    "instruction": "Turn right"
-                },
-                {
-                    "distance": 22.921,
-                    "instruction": "Turn left"
-                },
-                {
-                    "distance": 17.242,
-                    "instruction": "Keep left"
-                },
-                {
-                    "distance": 111.924,
-                    "instruction": "Turn sharp right"
-                },
-                {
-                    "distance": 0.0,
-                    "instruction": "Arrive at destination"
-                },
-                {
-                    "distance": 111.924,
-                    "instruction": "Continue"
-                },
-                {
-                    "distance": 7.113,
+                    "distance": 12.899,
                     "instruction": "Turn sharp left"
                 },
                 {
-                    "distance": 40.913,
-                    "instruction": "Turn left onto Liborova"
+                    "distance": 101.175,
+                    "instruction": "Turn sharp left onto K\u00a0Bateri\u00edm"
                 }
             ]
         },
         {
-            "name": "Fastrova",
+            "name": "Na Z\u00e1st\u0159elu",
             "hint": [
                 {
-                    "distance": 5.595,
-                    "instruction": "Turn right onto Fastrova"
-                }
-            ]
-        },
-        {
-            "name": "Tejnka",
-            "hint": [
-                {
-                    "distance": 2.589,
-                    "instruction": "Turn left"
-                },
-                {
-                    "distance": 309.765,
+                    "distance": 17.507,
                     "instruction": "Turn right"
                 },
                 {
-                    "distance": 0.0,
-                    "instruction": "Waypoint 1"
-                },
-                {
-                    "distance": 7.153,
-                    "instruction": "Continue onto Tejnka"
+                    "distance": 62.476,
+                    "instruction": "Turn left onto Na Z\u00e1st\u0159elu"
                 }
             ]
         },
         {
-            "name": "\u0160likova",
+            "name": "Radimova",
             "hint": [
                 {
-                    "distance": 25.54,
-                    "instruction": "Turn right onto Tejnka"
+                    "distance": 7.55,
+                    "instruction": "Turn right"
                 },
                 {
-                    "distance": 71.381,
-                    "instruction": "Turn right onto \u0160likova"
+                    "distance": 119.796,
+                    "instruction": "Turn left"
+                },
+                {
+                    "distance": 26.722,
+                    "instruction": "Turn left"
+                },
+                {
+                    "distance": 4.426,
+                    "instruction": "Turn right"
+                },
+                {
+                    "distance": 11.607,
+                    "instruction": "Turn left onto Radimova"
                 }
             ]
         },
         {
-            "name": "Kochanova",
+            "name": "Za Kajet\u00e1nkou",
             "hint": [
                 {
-                    "distance": 88.418,
-                    "instruction": "Turn right onto Kochanova"
+                    "distance": 32.461,
+                    "instruction": "Turn right onto Za Kajet\u00e1nkou"
                 }
             ]
         },
@@ -397,43 +330,15 @@
             "name": "Pod Drinopolem",
             "hint": [
                 {
-                    "distance": 6.716,
-                    "instruction": "Turn right"
-                },
-                {
-                    "distance": 32.167,
+                    "distance": 70.733,
                     "instruction": "Turn left"
                 },
                 {
-                    "distance": 27.221,
-                    "instruction": "Turn right"
-                },
-                {
-                    "distance": 7.915,
+                    "distance": 7.433,
                     "instruction": "Turn left"
                 },
                 {
-                    "distance": 8.749,
-                    "instruction": "Turn right"
-                },
-                {
-                    "distance": 32.705,
-                    "instruction": "Turn left"
-                },
-                {
-                    "distance": 16.908,
-                    "instruction": "Turn right"
-                },
-                {
-                    "distance": 10.705,
-                    "instruction": "Turn left"
-                },
-                {
-                    "distance": 4.771,
-                    "instruction": "Turn left"
-                },
-                {
-                    "distance": 101.073,
+                    "distance": 97.895,
                     "instruction": "Turn right onto Pod Drinopolem"
                 }
             ]
@@ -442,33 +347,8 @@
             "name": "Ml\u00e1de\u017ee",
             "hint": [
                 {
-                    "distance": 11.746,
-                    "instruction": "Turn left onto Ml\u00e1de\u017ee"
-                }
-            ]
-        },
-        {
-            "name": "Pod Drinopolem",
-            "hint": [
-                {
-                    "distance": 0.0,
-                    "instruction": "Waypoint 2"
-                },
-                {
-                    "distance": 20.404,
-                    "instruction": "Continue onto Ml\u00e1de\u017ee"
-                },
-                {
-                    "distance": 0.0,
-                    "instruction": "Waypoint 3"
-                },
-                {
-                    "distance": 11.689,
-                    "instruction": "Make a U-turn onto Ml\u00e1de\u017ee"
-                },
-                {
-                    "distance": 61.895,
-                    "instruction": "Turn right onto Pod Drinopolem"
+                    "distance": 102.592,
+                    "instruction": "Turn right onto Ml\u00e1de\u017ee"
                 }
             ]
         },
@@ -476,8 +356,12 @@
             "name": "Jun\u00e1ck\u00e1",
             "hint": [
                 {
-                    "distance": 4.684,
-                    "instruction": "Turn right onto Jun\u00e1ck\u00e1"
+                    "distance": 56.679,
+                    "instruction": "Turn sharp left"
+                },
+                {
+                    "distance": 20.063,
+                    "instruction": "Turn sharp right onto Jun\u00e1ck\u00e1"
                 }
             ]
         }
